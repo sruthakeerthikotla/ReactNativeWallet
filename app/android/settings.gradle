@@ -1,0 +1,15 @@
+rootProject.name = 'RNMFPSample'
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-ibm-mobilefirst-jsonstore'
+project(':react-native-ibm-mobilefirst-jsonstore').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ibm-mobilefirst-jsonstore/android/app')
+include ':react-native-ibm-mobilefirst'
+project(':react-native-ibm-mobilefirst').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ibm-mobilefirst/android')
+
+include ':app'
+
+include ':react-native-bridge'
+project(':react-native-bridge').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ibm-mobilefirst/android/react-native-bridge')
+
+include ':react-native-jsonstorebridge'
+project(':react-native-jsonstorebridge').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ibm-mobilefirst-jsonstore/android/react-native-jsonstorebridge')

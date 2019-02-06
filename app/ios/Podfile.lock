@@ -1,0 +1,128 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.6)
+  - Folly (2016.10.31.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - IBMMobileFirstPlatformFoundation (8.0.2018100114)
+  - IBMMobileFirstPlatformFoundationJSONStore (8.0.2018071512):
+    - IBMMobileFirstPlatformFoundation (~> 8.0)
+    - IBMMobileFirstPlatformFoundationOpenSSLUtils (~> 8.0)
+  - IBMMobileFirstPlatformFoundationOpenSSLUtils (8.0.2018100114)
+  - React (0.57.7):
+    - React/Core (= 0.57.7)
+  - React/Core (0.57.7):
+    - yoga (= 0.57.7.React)
+  - React/CxxBridge (0.57.7):
+    - Folly (= 2016.10.31.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.57.7):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.10.31.00)
+    - React/jschelpers
+    - React/jsinspector
+  - React/DevSupport (0.57.7):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.57.7)
+  - React/jschelpers (0.57.7):
+    - Folly (= 2016.10.31.00)
+    - React/PrivateDatabase
+  - React/jsinspector (0.57.7)
+  - React/PrivateDatabase (0.57.7)
+  - React/RCTActionSheet (0.57.7):
+    - React/Core
+  - React/RCTAnimation (0.57.7):
+    - React/Core
+  - React/RCTBlob (0.57.7):
+    - React/Core
+  - React/RCTImage (0.57.7):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.57.7):
+    - React/Core
+  - React/RCTText (0.57.7):
+    - React/Core
+  - React/RCTWebSocket (0.57.7):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - RNIBMMobileFirst (8.0.2019010203):
+    - IBMMobileFirstPlatformFoundation
+    - React
+    - RNIBMMobileFirst/RNMFP (= 8.0.2019010203)
+  - RNIBMMobileFirst/RNMFP (8.0.2019010203):
+    - IBMMobileFirstPlatformFoundation
+    - React
+  - RNIBMMobileFirstJSONStore (8.0.2018120510):
+    - IBMMobileFirstPlatformFoundationJSONStore
+    - React
+    - RNIBMMobileFirstJSONStore/RNMFP (= 8.0.2018120510)
+  - RNIBMMobileFirstJSONStore/RNMFP (8.0.2018120510):
+    - IBMMobileFirstPlatformFoundationJSONStore
+    - React
+  - yoga (0.57.7.React)
+
+DEPENDENCIES:
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/cxxreact (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/jschelpers (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNIBMMobileFirst (from `../node_modules/react-native-ibm-mobilefirst/ios`)
+  - RNIBMMobileFirst/RNMFP (from `../node_modules/react-native-ibm-mobilefirst/ios`)
+  - RNIBMMobileFirstJSONStore (from `../node_modules/react-native-ibm-mobilefirst-jsonstore/ios`)
+  - RNIBMMobileFirstJSONStore/RNMFP (from `../node_modules/react-native-ibm-mobilefirst-jsonstore/ios`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga/yoga.podspec`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+    - IBMMobileFirstPlatformFoundation
+    - IBMMobileFirstPlatformFoundationJSONStore
+    - IBMMobileFirstPlatformFoundationOpenSSLUtils
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "../node_modules/react-native"
+  RNIBMMobileFirst:
+    :path: "../node_modules/react-native-ibm-mobilefirst/ios"
+  RNIBMMobileFirstJSONStore:
+    :path: "../node_modules/react-native-ibm-mobilefirst-jsonstore/ios"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga/yoga.podspec"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
+  Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
+  glog: e8acf0ebbf99759d3ff18c86c292a5898282dcde
+  IBMMobileFirstPlatformFoundation: 543612ab095c00cfcf64fe6cd4c299e4325343d9
+  IBMMobileFirstPlatformFoundationJSONStore: 240ff5ad2fb744b50151702d40bc27b10d6f321d
+  IBMMobileFirstPlatformFoundationOpenSSLUtils: 5cf0266150d9b19c9c244ca09a8be478f8ff9d3c
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
+  RNIBMMobileFirst: bc1ea7a84add54098cc929c0abe0c02873ef2fa8
+  RNIBMMobileFirstJSONStore: 8969c4ac59581b1fe676aaf7374cf5a28880dfd2
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+
+PODFILE CHECKSUM: 18f58ccc20dabecc3e3f8d5ca689cf431fe60d10
+
+COCOAPODS: 1.5.3
