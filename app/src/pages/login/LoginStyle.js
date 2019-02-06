@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     width: '100%',
     paddingTop: 0,
     color: '#444860',
-    fontFamily: 'Cookie-Regular',
+    fontFamily: 'Cookie',
     fontSize: 40,
     textAlign: 'center',
   },
