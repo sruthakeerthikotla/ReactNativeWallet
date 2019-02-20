@@ -121,11 +121,19 @@ android {
     }
     signingConfigs {
         release {
+<<<<<<< Updated upstream
             if (project.hasProperty('KEY_STORE_FILE')) {
                 storeFile file(KEY_STORE_FILE)
                 storePassword KEY_STORE_PASSWORD
                 keyAlias KEY_ALIAS
                 keyPassword KEY_ALIAS_PASSWORD
+=======
+            if (project.hasProperty('KEYSTORE_FILE')) {
+                storeFile file(KEYSTORE_FILE)
+                storePassword KEYSTORE_PASSWORD
+                keyAlias KEYSTORE_ALIAS
+                keyPassword KEY_PASSWORD
+>>>>>>> Stashed changes
             }
         }
     }
