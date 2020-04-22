@@ -9,7 +9,7 @@ See https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/reactna
 1. Clone the repository 
 
 ```
-git clone https://github.ibm.com/skulkarni/react-native-sample
+git clone https://github.com/MobileFirst-Platform-Developer-Center/ReactNativeWallet.git
 cd react-native-sample/app
 ```
 
